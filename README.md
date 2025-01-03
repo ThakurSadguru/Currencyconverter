@@ -13,7 +13,7 @@ The Currency Converter is a simple web application that allows users to convert 
 
 # Technologies Used
 
-HTML: Structure of the web page.
-CSS: Styling of the web page for an attractive design.
-JavaScript: Functionality for fetching exchange rates and performing the conversion logic.
-API: (Optional) API to fetch real-time currency exchange rates.
+- HTML: Structure of the web page.
+- CSS: Styling of the web page for an attractive design.
+- JavaScript: Functionality for fetching exchange rates and performing the conversion logic.
+- API: (Optional) API to fetch real-time currency exchange rates.
