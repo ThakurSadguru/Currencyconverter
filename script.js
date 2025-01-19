@@ -6,7 +6,7 @@ const fromCurr = document.querySelector(".from select");
 const toCurr = document.querySelector(".to select");
 const msg = document.querySelector(".msg");
 
-for (let select of dropdowns) {
+for (let select of dropdowns) { 
   for (currCode in countryList) {
     let newOption = document.createElement("option");
     newOption.innerText = currCode;
@@ -23,7 +23,7 @@ for (let select of dropdowns) {
   });
 }
 
-// Fetching exchange rate with the fixed base currency URL
+// Fetching Exchange rate with the fixed base currency URL
 const updateExchangeRate = async () => {
   let amount = document.querySelector(".amount input");
   let amtVal = amount.value;
